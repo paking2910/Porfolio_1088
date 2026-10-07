@@ -1,0 +1,160 @@
+
+body {
+    background-color: #F5F5DC;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Cinnamon-Roll-Logo {
+    display: block;
+    width: 320px;
+    height: auto; 
+    margin: 0 auto;
+}
+.Cinnamon-Roll-Page1 {
+   display: block;
+    width: 320px;
+    height: auto; 
+    margin: 0 auto;
+
+}
+
+.Cinnamon-Roll-Page2 {
+   display: block;
+    width: 320px;
+    height: auto; 
+    margin: 0 auto;
+
+}
+
+.flex_container >div img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 250px;
+    margin: 0 auto;
+    background-color: #fefcbf;
+    border-radius: 16px;
+    justify-content: center;
+    padding: 20px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+.letter1 {
+   text-align: center;
+}
+
+ul {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20pt;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #fffaf0;
+    border-left: 5px solid #dd6b20;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    text-align: left;
+    margin: 30px auto;
+    padding: 10px 10px;
+}
+
+.line1{
+    background-color: #e2a196;
+    height: 1px;
+    color: #fadba3;
+    border: medium solid #f8593d;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.recipe-layout {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 24px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 30px;
+    border: 1px solid rgba(240, 240, 240, 0.781);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+.h2font1 {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 30pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Toppic {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 30pt;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.references-cinnamon {
+    text-align: center;
+}
+
+span {
+    margin: 10px 0;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #4a5568;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+a:link {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 500;
+}
+div a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2b6cb0;
+    background-color: #ebf8ff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+a, button, img, div, .div_display, .flex_container > div, 
+.table_Border tr, .recipe-card {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.div_display:hover, .flex_container > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(49, 130, 206, 0.12);
+    border-color: #3182ce;
+}
+
+header img, .Cinnamon-Roll-Logo {
+    animation: logoPulse 4s infinite ease-in-out;
+}
+ 
+div a:active {
+    transform: translateY(1px) scale(0.97);
+}
+
+header img, .Cinnamon-Roll-Logo {
+    animation: logoPulse 4s infinite ease-in-out;
+}
+
+div a:hover {
+    background-color: #bee3f8;
+    color: #1a365d;
+    transform: translateY(-2px);
+}
